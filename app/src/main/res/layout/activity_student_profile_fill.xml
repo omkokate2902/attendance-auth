@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentProfileFillActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Students Sign In"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/prof_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/tv"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prof_img"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:hint="enter name" />
+
+        <EditText
+            android:id="@+id/dept"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:hint="enter dept" />
+
+        <EditText
+            android:id="@+id/div"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dept"
+            android:layout_centerHorizontal="true"
+            android:hint="enter div" />
+
+        <EditText
+            android:id="@+id/roll"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/div"
+            android:layout_centerHorizontal="true"
+            android:hint="enter roll" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roll"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="submit" />
+
+        <Button
+            android:id="@+id/teacher_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/submit_btn"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="sign in as teacher" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

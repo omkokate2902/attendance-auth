@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555605625116",
+    "project_id": "attendance-authenticatio-d9dbc",
+    "storage_bucket": "attendance-authenticatio-d9dbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555605625116:android:a55338b92544a03d6492d9",
+        "android_client_info": {
+          "package_name": "com.omkokate.attendanceauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555605625116-nuv5k2ge80cf7fcb9dtqpe2m26brpngv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNkognrM4rXQMnx3ZAUarWoW6pZGS7ONU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555605625116-nuv5k2ge80cf7fcb9dtqpe2m26brpngv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

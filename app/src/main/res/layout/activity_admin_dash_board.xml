@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherDashBoardActivity">
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/logout_button"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/welcomeTextView">
+
+        <!-- Profile CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/profile_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="View Profile"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_centerInParent="true"/>
+
+
+            <!-- Add your profile UI elements here -->
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- View Attendance CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/view_attendance_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_card_view"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="View Attendance"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_centerInParent="true"/>
+
+            <!-- Add your view attendance UI elements here -->
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- View Attendance CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/whitelist_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upload_attendance_card_view"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Whitelist"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_centerInParent="true"/>
+
+            <!-- Add your view attendance UI elements here -->
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- View Attendance CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/upload_attendance_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_attendance_card_view"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Upload Attendance"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_centerInParent="true"/>
+
+            <!-- Add your view attendance UI elements here -->
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
